@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS views (
+    views_id SERIAL PRIMARY KEY,
+    created_time TIMESTAMP default CURRENT_TIMESTAMP
+);
